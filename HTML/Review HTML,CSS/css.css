@@ -1,0 +1,58 @@
+h1,h2{
+    color:white;
+    text-align: center;
+
+    border: 5px solid cyan;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: deeppink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+#question{
+    color: blue;
+    text-align: center;
+}
+
+.message{
+    color: green;
+    text-align: center;
+}
+
+a[href="https://facebook.com/"]{
+    color: orangered;
+}
+
+ul > li{
+    color: blueviolet;
+}
+
+table{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+}
